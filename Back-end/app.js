@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const app = express();
 const path = require('path');
 
-
+require('dotenv').config();
 
 const userRoute = require('./routes/routeuser');
 
